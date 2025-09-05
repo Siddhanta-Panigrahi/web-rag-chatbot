@@ -1,7 +1,3 @@
-# =====================================================================
-# WebRAG Chatbot with Llama 3.1 (via OpenRouter + Streamlit UI)
-# HuggingFace embeddings (local) + OpenRouter for LLM (streaming enabled)
-# =====================================================================
 
 import os
 import time
@@ -150,3 +146,4 @@ else:
 
         # Save to history
         st.session_state["history"].append({"user": prompt, "bot": full_response})
+
